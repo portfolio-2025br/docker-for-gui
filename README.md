@@ -253,7 +253,7 @@ um objetivo futuro.
 
 ## Apêndice
 
-### [1] Firefox para Linux
+### [1] Firefox para Linux executando dentro do Docker
 
 ![Firefox](images/firefox-docker.png)
 
@@ -261,7 +261,7 @@ Firefox compilado para Linux obtido em <https://download.mozilla.org/>.
 
 ---
 
-### [2] Programa IRPF para Windows
+### [2] Programa IRPF para Windows executando dentro do Docker
 
 ![IRPF](images/irpf.png)
 
