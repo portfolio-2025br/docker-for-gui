@@ -266,3 +266,12 @@ Firefox compilado para Linux obtido em <https://download.mozilla.org/>.
 ![IRPF](images/irpf.png)
 
 IRPF para Windows obtido em <https://downloadirpf.receita.fazenda.gov.br/irpf/2025/irpf/arquivos/IRPF2025Win32v1.4.exe>.
+
+---
+
+### [3] Configuração do Wine
+
+![Config](images/winecfg.png)
+
+O comando `winecfg` foi executado para configurar o ambiente, mas nenhum pacote extra (como o `mono`) ou configuração
+diferente do padrão foi usado ou instalado.
