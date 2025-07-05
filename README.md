@@ -183,8 +183,8 @@ Uma vez que você tenha Docker instalado, configurado e funcionando:
     ~/opt/firefox/firefox
     ```
 
-    Sucesso ([ver Apêndice 1](#1-firefox-para-linux))! O Firefox existe apenas dentro do contêiner e foi executado com
-    sucesso.
+    Sucesso ([ver Apêndice 1](#1-firefox-para-linux-executando-dentro-do-docker))! O Firefox existe apenas dentro do
+    contêiner e foi executado com sucesso.
 
 3.  Para concluir, remover a permissão de acesso ao X:
 
@@ -208,17 +208,17 @@ Docker com os parâmetros mínimos requeridos. Então:
     wine IRPF2025Win32v1.4.exe
     ```
 
-Novamente sucesso ([ver Apêndice 2](#2-programa-irpf-para-windows))! O aplicativo executou normalmente como se
-estivéssemos rodando no sistema operacional `host`. O aplicativo foi instalado dentro do contêiner e foi executado com
-sucesso.
+Novamente sucesso ([ver Apêndice 2](#2-programa-irpf-para-windows-executando-dentro-do-docker))! O aplicativo executou
+normalmente como se estivéssemos rodando no sistema operacional `host`. O aplicativo foi instalado dentro do contêiner e
+foi executado com sucesso.
 
 ### Os Resultados
 
 De fato, não encontramos obstáculos para usar o Firefox instalado dentro de uma imagem Docker
-([ver Apêndice 1](#1-firefox-para-linux)). Basta instalar e usar.
+([ver Apêndice 1](#1-firefox-para-linux-executando-dentro-do-docker)). Basta instalar e usar.
 
 Ainda, instalar o IRPF para Windows da Receita Federal dentro do Docker com Wine transcorreu sem problemas
-([ver Apêndice 2](#2-programa-irpf-para-windows)).
+([ver Apêndice 2](#2-programa-irpf-para-windows-executando-dentro-do-docker)).
 
 E, como bônus, lembre-se que meu `host`, a minha máquina de trabalho real está limpa. Fiquei horas desenvolvendo e
 testando para concluir este projeto e nenhum arquivo ou DLL ficará perdido na minha máquina assim que eu remover as
