@@ -195,7 +195,7 @@ Uma vez que você tenha Docker instalado, configurado e funcionando:
 
 Obstáculo superado, agora vamos testar a instalação de um aplicativo Windows dentro do contêiner Docker.
 
-Da mesma forma que fizemos acima, você precisa dar permissão ao usuário docker para acessar o X e executar a imagem
+Da mesma forma que fizemos acima, você precisa dar permissão ao usuário `docker` para acessar o X e executar a imagem
 Docker com os parâmetros mínimos requeridos. Então:
 
 1.  De dentro do contêiner, obter e instalar o IRPF 2025:
