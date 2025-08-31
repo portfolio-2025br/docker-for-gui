@@ -44,16 +44,11 @@ jobs:
           egress-policy: block
           allowed-endpoints: >
             api.github.com:443
-            api.nuget.org:443
             api0.prismacloud.io:443
-            check.trivy.dev
-            checkpoint-api.hashicorp.com:443
-            crl3.digicert.com:80
+            check.trivy.dev:443
             github.com:443
             mirror.gcr.io:443
             pypi.org:443
-            raw.githubusercontent.com:443
-            registry.terraform.io:443
 
       - name: Checkout Code
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
@@ -66,7 +61,6 @@ jobs:
         env:
           ENABLE_COMMITLINT_STRICT_MODE: true
           ENFORCE_COMMITLINT_CONFIGURATION_CHECK: true
-          FIX_CSHARP: true
           FIX_MARKDOWN_PRETTIER: true
           FIX_YAML_PRETTIER: true
           DEFAULT_BRANCH: "main"
